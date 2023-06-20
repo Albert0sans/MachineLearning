@@ -12,7 +12,7 @@ basado en
 
 # Perceptrón Multicapa mlp.py
 
-El Perceptrón multicapa es una red neuronal con una capa de entrenada, otra de salida y múltiples capas ocultas cuyos pesos se ajustan por medio del algoritmo Gradiente Descendente. Los valores "fluyen" por la red hasta alcanzar la capa de salida en donde se calcula dicho gradiente, una vez calculado este se retropropaga hacia la entrada, corrigiendo los pesos de las neuronas en el proceso, de forma que en cada iteración el error disminuya. Se debe seleccionar cuidadosamente el escalón de aprendizaje, ya que valores elevados pueden resultar que el algoritmo nunca converja hacia una solución óptima. 
+El Perceptrón multicapa es una red neuronal con una capa de entrada, otra de salida y múltiples capas ocultas cuyos pesos se ajustan por medio del algoritmo Gradiente Descendente. Los valores "fluyen" por la red hasta alcanzar la capa de salida en donde se calcula dicho gradiente, una vez calculado este se retropropaga hacia la entrada, corrigiendo los pesos de las neuronas en el proceso, de forma que en cada iteración el error disminuya. Se debe seleccionar cuidadosamente el escalón de aprendizaje, ya que valores elevados pueden resultar que el algoritmo nunca converja hacia una solución óptima. 
 basado en 
 
   https://pabloinsente.github.io/the-multilayer-perceptron
