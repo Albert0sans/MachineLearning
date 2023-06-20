@@ -1,6 +1,6 @@
 # MachineLearning
 
-# SVR [Máquina de Vectores Soporte para Regresión, Support Vector Regresión] Modo linear: linearsvr.py Modo completo: completesvr.py
+# SVR [Máquina de Vectores Soporte para Regresión, Support Vector Regression] Modo linear: linearsvr.py Modo completo: completesvr.py
 
 Máquina de vectores sopote para regresión trata de obtener una función con el menor error que se ajuste a los datos. Es un sistema matemático de minimización con restricciones, se resuelve utilizando multiplicadores de Lagrange.
 Su objetivo es encontrar la recta que mejor se ajuste a los datos que se ajuste con un menor error. Al trabajar únicamente con rectas es necesario transformar el plano de forma que los datos en este se ajusten a una recta de forma que el algoritmo se ajuste a cualquier tipo de función, para esto se utilizan los llamados kernels.
